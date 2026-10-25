@@ -1,0 +1,33 @@
+# flutter_native_splash configuration
+# Run: dart run flutter_native_splash:create
+# NOTE: Convert logo.svg to logo.png (512x512) before running this command
+
+# Temporarily disabled until PNG logo is created
+# To create PNG from SVG, use an online converter or ImageMagick:
+# magick convert -background none -size 512x512 assets/icons/logo.svg assets/icons/logo.png
+
+flutter_native_splash:
+  # Background color matches the Flutter splash screen background
+  # Light mode: surface color from theme
+  color: "#F8F9FF"
+
+  # Dark mode background
+  color_dark: "#0B1C30"
+
+  # Logo image (convert SVG to PNG first)
+  # image: assets/icons/logo.png
+
+  # Android 12+ splash screen
+  android_12:
+    # Same logo for Android 12+
+    # image: assets/icons/logo.png
+
+    # Icon background color (transparent to let the main background show through)
+    icon_background_color: "#F8F9FF"
+    icon_background_color_dark: "#0B1C30"
+
+  # Disable for now until we have a PNG logo
+  android: false
+  ios: false
+  web: false
+

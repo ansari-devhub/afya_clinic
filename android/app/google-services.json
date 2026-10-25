@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "663501030273",
+    "project_id": "afya-clinic",
+    "storage_bucket": "afya-clinic.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663501030273:android:2419ab0a47ccd30d999e80",
+        "android_client_info": {
+          "package_name": "com.example.afya_clinic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyoUWPX_Vl7qRlvpe_Rqioix2sresH0mc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
